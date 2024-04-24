@@ -1,0 +1,25 @@
+[build-system]
+requires      = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "find_where"
+version = "1.0.0"
+description = "find_where is a Python package that provides a function to find values in dictionaries where a specified key matches a given value, similar to filtering in SQL."
+readme = "README.md"
+authors = [{ name = "Daniel Ohnesorge", email = "82357071+danohn@users.noreply.github.com" }]
+license = { file = "LICENSE" }
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+]
+keywords = ["find", "where", "sql"]
+dependencies = []
+requires-python = ">=3.7"
+
+[project.optional-dependencies]
+dev = ["pip-tools", "pytest"]
+
+[project.urls]
+Homepage = "https://github.com/danohn/find_where"
